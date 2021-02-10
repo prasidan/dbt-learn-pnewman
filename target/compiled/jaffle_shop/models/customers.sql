@@ -1,11 +1,11 @@
 with customers as (
 
-    select * from {{ ref('stg_customers') }}
+    select * from analytics.dbt_pnewman.stg_customers
 
 )
 
 , orders as (
-    select * from {{ ref('orders')}}
+    select * from analytics.dbt_pnewman.orders
 )
 
 , customer_orders as (

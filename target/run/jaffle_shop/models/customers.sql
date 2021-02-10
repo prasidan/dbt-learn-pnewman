@@ -1,11 +1,14 @@
-with customers as (
 
-    select * from {{ ref('stg_customers') }}
+
+      create or replace transient table analytics.dbt_pnewman.customers  as
+      (with customers as (
+
+    select * from analytics.dbt_pnewman.stg_customers
 
 )
 
 , orders as (
-    select * from {{ ref('orders')}}
+    select * from analytics.dbt_pnewman.orders
 )
 
 , customer_orders as (
@@ -42,3 +45,5 @@ final as (
 )
 
 select * from final
+      );
+    
