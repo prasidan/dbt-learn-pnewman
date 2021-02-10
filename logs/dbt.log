@@ -5945,3 +5945,47 @@ Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
 2021-02-10 23:24:38.886712 (Thread-80): handling status request
 2021-02-10 23:24:38.887139 (Thread-80): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00b9e036-72cc-45f1-bcee-898145a568dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13a824aa90>]}
 2021-02-10 23:24:38.890321 (Thread-80): sending response (<Response 9610 bytes [200 OK]>) to 10.0.4.193
+2021-02-10 23:24:43.289323 (MainThread): Connection 'model.jaffle_shop.stg_orders' was properly closed.
+2021-02-10 23:24:43.314341 (Thread-81): Parsing macros/adapters.sql
+2021-02-10 23:24:43.343127 (Thread-81): Parsing macros/catalog.sql
+2021-02-10 23:24:43.345136 (Thread-81): Parsing macros/materializations/table.sql
+2021-02-10 23:24:43.348975 (Thread-81): Parsing macros/materializations/merge.sql
+2021-02-10 23:24:43.350924 (Thread-81): Parsing macros/materializations/view.sql
+2021-02-10 23:24:43.352442 (Thread-81): Parsing macros/materializations/incremental.sql
+2021-02-10 23:24:43.362231 (Thread-81): Parsing macros/core.sql
+2021-02-10 23:24:43.365799 (Thread-81): Parsing macros/adapters/common.sql
+2021-02-10 23:24:43.411953 (Thread-81): Parsing macros/materializations/helpers.sql
+2021-02-10 23:24:43.421023 (Thread-81): Parsing macros/materializations/table/table.sql
+2021-02-10 23:24:43.427955 (Thread-81): Parsing macros/materializations/seed/seed.sql
+2021-02-10 23:24:43.450932 (Thread-81): Parsing macros/materializations/view/view.sql
+2021-02-10 23:24:43.463368 (Thread-81): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-02-10 23:24:43.468236 (Thread-81): Parsing macros/materializations/incremental/helpers.sql
+2021-02-10 23:24:43.470032 (Thread-81): Parsing macros/materializations/incremental/incremental.sql
+2021-02-10 23:24:43.485244 (Thread-81): Parsing macros/materializations/common/merge.sql
+2021-02-10 23:24:43.498940 (Thread-81): Parsing macros/materializations/snapshot/strategies.sql
+2021-02-10 23:24:43.518528 (Thread-81): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-02-10 23:24:43.520290 (Thread-81): Parsing macros/materializations/snapshot/snapshot.sql
+2021-02-10 23:24:43.547795 (Thread-81): Parsing macros/schema_tests/relationships.sql
+2021-02-10 23:24:43.549637 (Thread-81): Parsing macros/schema_tests/not_null.sql
+2021-02-10 23:24:43.551134 (Thread-81): Parsing macros/schema_tests/unique.sql
+2021-02-10 23:24:43.553115 (Thread-81): Parsing macros/schema_tests/accepted_values.sql
+2021-02-10 23:24:43.556116 (Thread-82): handling status request
+2021-02-10 23:24:43.556523 (Thread-82): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00b9e036-72cc-45f1-bcee-898145a568dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13a824a0d0>]}
+2021-02-10 23:24:43.556686 (Thread-81): Parsing macros/etc/get_custom_database.sql
+2021-02-10 23:24:43.557422 (Thread-82): sending response (<Response 184 bytes [200 OK]>) to 10.0.35.116
+2021-02-10 23:24:43.559525 (Thread-81): Parsing macros/etc/query.sql
+2021-02-10 23:24:43.560792 (Thread-81): Parsing macros/etc/datetime.sql
+2021-02-10 23:24:43.569607 (Thread-81): Parsing macros/etc/get_custom_alias.sql
+2021-02-10 23:24:43.570553 (Thread-81): Parsing macros/etc/is_incremental.sql
+2021-02-10 23:24:43.572155 (Thread-81): Parsing macros/etc/get_custom_schema.sql
+2021-02-10 23:24:43.609586 (Thread-81): Acquiring new snowflake connection "model.jaffle_shop.orders".
+2021-02-10 23:24:43.735842 (Thread-81): Acquiring new snowflake connection "model.jaffle_shop.customers".
+2021-02-10 23:24:43.748624 (Thread-81): Acquiring new snowflake connection "model.jaffle_shop.stg_customers".
+2021-02-10 23:24:43.760441 (Thread-81): Acquiring new snowflake connection "model.jaffle_shop.stg_payments".
+2021-02-10 23:24:43.770913 (Thread-81): Acquiring new snowflake connection "model.jaffle_shop.stg_orders".
+2021-02-10 23:24:44.797455 (Thread-83): handling status request
+2021-02-10 23:24:44.797890 (Thread-83): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00b9e036-72cc-45f1-bcee-898145a568dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13a824a670>]}
+2021-02-10 23:24:44.801096 (Thread-83): sending response (<Response 9610 bytes [200 OK]>) to 10.0.35.116
+2021-02-10 23:25:13.833646 (Thread-84): handling status request
+2021-02-10 23:25:13.834109 (Thread-84): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '00b9e036-72cc-45f1-bcee-898145a568dc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f13a87e0490>]}
+2021-02-10 23:25:13.837328 (Thread-84): sending response (<Response 9610 bytes [200 OK]>) to 10.0.4.16
